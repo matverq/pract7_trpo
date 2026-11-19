@@ -9,7 +9,7 @@ using System.Windows.Media;
 
 namespace pract7_trpo.Converters
 {
-    class TotalPriceColorConverter : IValueConverter
+    public class TotalPriceColorConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
